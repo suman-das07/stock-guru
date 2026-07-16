@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Yuyu+Short&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&family=Yuyu+Short&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: rgb(233, 233, 233);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body>header {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 8vw;
+
+  .project-name {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: .6rem;
+
+    h2 {
+      font-size: 6vw;
+      font-family: "Yuyu Short", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    span {
+      font-size: 4vw;
+      font-style: normal;
+    }
+
+    h3 {
+      font-size: 3rem;
+      font-family: "Libre Barcode 128 Text", system-ui;
+      font-weight: 500;
+      font-style: normal;
+      color: black;
+    }
+  }
+}
