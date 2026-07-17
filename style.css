@@ -273,10 +273,10 @@ body>header {
   button {
     padding: 2vh 8vw;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.03);
-    border: .5px solid rgba(255, 255, 255, 0.459);
+    background-color: rgba(0, 255, 140, .15);
+    border: .5px solid rgba(76, 252, 70, 0.459);
     backdrop-filter: blur(2px);
-    color: white;
+    color: #54ff8d;
     font-size: 2rem;
     cursor: pointer;
     transition: all linear 0.2s;
@@ -288,7 +288,7 @@ body>header {
   }
 
   button:hover {
-    background-color: rgb(255, 255, 255, 0.856);
+    background-color: rgba(17, 231, 28, 0.856);
     color: black;
   }
 
