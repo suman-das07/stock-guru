@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stock Guru</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="shortcut icon"
       href="assets/stockGuruFavicon.png"
@@ -14,15 +14,42 @@
     />
   </head>
   <body>
+    <div class="background-grid"></div>
     <header>
       <div class="project-name">
         <h2>Stock.<span>गुरु</span></h2>
-        <h3>Stock ka hisab, bilkul laajawab.</h3>
+        <h3>Stock ka hisab, bilkul laajawab</h3>
       </div>
     </header>
     <section>
-      
+      <div class="dashboardCard">
+        <h4>Inventory Dashboard</h4>
+        <div class="dash_cards">
+          <div class="card1">
+            <h3>Total Products</h3>
+            <h2>20</h2>
+          </div>
+          <div class="card2">
+            <h3>Low Products</h3>
+            <h2>3</h2>
+          </div>
+          <div class="card3">
+            <h3>Out Of Stock</h3>
+            <h2>7</h2>
+          </div>
+          <div class="card4">
+            <h3>Total Value</h3>
+            <h2>20k</h2>
+          </div>
+        </div>
+      </div>
     </section>
+
+      <div class="search-bar">
+         <input type="search" placeholder="Enter Item Name" id="searchBar">
+      </div>
+    
+
     <script src="app.js"></script>
   </body>
 </html>
