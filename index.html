@@ -12,6 +12,10 @@
       href="assets/stockGuruFavicon.png"
       type="image/x-icon"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="background-grid"></div>
@@ -45,11 +49,71 @@
       </div>
     </section>
 
-      <div class="search-bar">
-         <input type="search" placeholder="Enter Item Name" id="searchBar">
+    <div class="search-bar">
+      <input type="search" placeholder="Enter Item Name" id="searchBar" />
+    </div>
+    <div class="product-navigator">
+      <button>Add Item <i class="ri-add-line"></i></button>
+      <div class="filter">
+        <i class="ri-filter-2-line"></i>
+        <h4>Category</h4>
+        <select name="categories" id="categories">
+          <option value="All">All</option>
+          <option value="Accessories">Accessories</option>
+          <option value="Electronics">Electronics</option>
+          <option value="Stationery">Stationery</option>
+          <option value="Networking">Networking</option>
+          <option value="Storage">Storage</option>
+        </select>
       </div>
-    
+      <div class="sort">
+        <i class="ri-sort-desc"></i>
+        <h4>Sort</h4>
+        <select name="categories" id="categories">
+          <option value="Name (A–Z)">Name (A–Z)</option>
+          <option value="Name (Z–A)">Name (Z–A)</option>
+          <option value="Price (Low → High)">Price (Low → High)</option>
+          <option value="Price (High → Low)">Price (High → Low)</option>
+          <option value="Quantity (Low → High)">Quantity (Low → High)</option>
+          <option value="Quantity (High → Low)">Quantity (High → Low)</option>
+          <option value="Newest First">Newest First</option>
+          <option value="Oldest First">Oldest First</option>
+        </select>
+      </div>
+    </div>
 
+    <section class="products-section">
+      <div class="table-container">
+        <table class="products-table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Product</th>
+              <th>Category</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Status</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+
+          <tbody id="productTableBody">
+            <tr>
+              <td>1</td>
+              <td>Wireless Mouse</td>
+              <td>Accessories</td>
+              <td>₹699</td>
+              <td>12</td>
+              <td><span class="status in-stock">In Stock</span></td>
+              <td>
+                <button class="edit-btn"><i class="ri-edit-fill"></i></button>
+                <button class="delete-btn"><i class="ri-delete-bin-6-fill"></i></button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
     <script src="app.js"></script>
   </body>
 </html>
