@@ -647,7 +647,7 @@ body>header {
 }
 
 
-@media (max-width:768px) {
+@media (max-width:600px) {
   body>header {
     & .project-name {
       h2 {
