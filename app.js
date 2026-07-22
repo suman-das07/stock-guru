@@ -51,3 +51,15 @@ if (submitBtn) {
     form.reset();
   });
 }
+
+function validateForm(productName, productCategory, productPrice, productQuantity) {
+  if (!productName || !productCategory || !productPrice || !productQuantity) {
+    alert("Please Fill All Details");
+    return false;
+  }
+  else {
+    alert("Products Added");
+    return true;
+  }
+
+}
