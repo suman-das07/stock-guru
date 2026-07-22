@@ -533,3 +533,187 @@ body>header .project-name h3 {
   color: white;
 }
 
+@media screen and (max-width: 600px) {
+
+  /* Header adjustments */
+  body>header {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1rem 1rem 1rem;
+    gap: 1.5rem;
+  }
+
+  body>header .project-name {
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  body>header .project-name h2 {
+    font-size: 3.5rem;
+  }
+
+  body>header .project-name span {
+    font-size: 3rem;
+  }
+
+  body>header .project-name h3 {
+    font-size: 2.1rem;
+    margin-top: 2vh;
+  }
+
+  /* Dashboard Cards stacked in column */
+  .dashboardCard {
+    margin-top: 3vh;
+    padding: 0 1rem;
+    gap: 1.5rem;
+  }
+
+  .dashboardCard h4 {
+    font-size: 2.3rem;
+    text-align: center;
+  }
+
+  .dashboardCard .dash_cards {
+    flex-direction: column;
+    width: 100%;
+    gap: 1.2rem;
+  }
+
+  .dashboardCard .card1,
+  .dashboardCard .card2,
+  .dashboardCard .card3,
+  .dashboardCard .card4 {
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem 1rem;
+  }
+
+  .dashboardCard h3 {
+    font-size: 2.3rem;
+  }
+
+  .dashboardCard h2 {
+    font-size: 2.5rem;
+  }
+
+  /* Search Bar */
+  .search-bar {
+    height: auto;
+    margin-top: 3vh;
+    padding: 0 1rem;
+  }
+
+  .search-bar input {
+    padding: 0.8rem 1.2rem;
+    font-size: 1rem;
+  }
+
+  .search-bar ::placeholder {
+    font-size: 0.95rem;
+  }
+
+  /* Product Navigator controls */
+  .product-navigator {
+    margin-top: 3vh;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .product-navigator button {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .product-navigator .filter,
+  .product-navigator .sort {
+    width: 100%;
+    justify-content: space-between;
+    padding: 0.8rem 1rem;
+  }
+
+  .product-navigator h4 {
+    font-size: 1.2rem;
+  }
+
+  .product-navigator select {
+    padding: 0.5rem;
+    max-width: 60%;
+  }
+
+  /* Table Section & Horizontal Scrolling */
+  .products-section {
+    padding: 2vh 1rem 5vh 1rem;
+    max-height: none;
+  }
+
+  .table-container {
+    max-height: 50vh;
+    overflow-x: auto;
+    /* Enables horizontal swipe if table is wider than mobile view */
+  }
+
+  .products-table th {
+    font-size: 1.2rem;
+    padding: 12px 10px;
+  }
+
+  .products-table td {
+    font-size: 0.85rem;
+    padding: 12px 10px;
+    white-space: nowrap;
+    /* Prevents text from awkwardly squeezing */
+  }
+
+  .edit-btn,
+  .delete-btn {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.85rem;
+  }
+
+  /* Form Container */
+  .form-container {
+    padding: 3vh 1rem;
+    min-height: auto;
+  }
+
+  .form-container h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  #productForm {
+    padding: 1.5rem 1rem;
+    gap: 1.2rem;
+  }
+
+  .input-group label {
+    font-size: 1.3rem;
+  }
+
+  .input-group input,
+  .input-group select {
+    padding: 0.8rem;
+    font-size: 0.95rem;
+  }
+
+  .form-actions {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.8rem;
+  }
+
+  .form-actions button {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1.3rem;
+  }
+}
