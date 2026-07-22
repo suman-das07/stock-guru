@@ -48,10 +48,6 @@
         </div>
       </div>
     </section>
-
-    <div class="search-bar">
-      <input type="search" placeholder="Enter Item Name" id="searchBar" />
-    </div>
     <div class="product-navigator">
       <button onclick="window.location.href = 'form.html'">
         Add Item <i class="ri-add-line"></i>
@@ -59,7 +55,7 @@
       <div class="filter">
         <i class="ri-filter-2-line"></i>
         <h4>Category</h4>
-        <select name="categories" id="categories">
+        <select name="categories" id="categories" onchange="filterCategory()">
           <option value="All">All</option>
           <option value="Accessories">Accessories</option>
           <option value="Electronics">Electronics</option>
@@ -71,7 +67,7 @@
       <div class="sort">
         <i class="ri-sort-desc"></i>
         <h4>Sort</h4>
-        <select name="categories" id="categories">
+        <select name="categories" id="sort" onchange="sortProducts()">
           <option value="Name (A–Z)">Name (A–Z)</option>
           <option value="Name (Z–A)">Name (Z–A)</option>
           <option value="Price (Low → High)">Price (Low → High)</option>
@@ -83,7 +79,9 @@
         </select>
       </div>
     </div>
-
+    <div class="search-bar">
+      <input type="search" placeholder="Enter Item Name" id="searchBar" />
+    </div>
     <section class="products-section">
       <div class="table-container">
         <table class="products-table">
@@ -101,14 +99,14 @@
 
           <tbody id="productTableBody">
             <tr>
-              <td>1</td>
-              <td>Wireless Mouse</td>
-              <td>Accessories</td>
-              <td>₹699</td>
-              <td>12</td>
-              <td><span class="status in-stock">In Stock</span></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><span class="status in-stock"></span></td>
               <td>
-                <button class="edit-btn"><i class="ri-edit-fill"></i></button>
+                <!-- <button class="edit-btn"><i class="ri-edit-fill"></i></button> -->
                 <button class="delete-btn">
                   <i class="ri-delete-bin-6-fill"></i>
                 </button>
