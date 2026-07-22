@@ -533,7 +533,7 @@ body>header .project-name h3 {
   color: white;
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
 
   /* Header adjustments */
   body>header {
@@ -628,7 +628,7 @@ body>header .project-name h3 {
   .product-navigator button {
     width: 100%;
     padding: 0.8rem 1rem;
-    font-size: 1.4rem;
+    font-size: 2rem;
     text-align: center;
   }
 
@@ -640,7 +640,7 @@ body>header .project-name h3 {
   }
 
   .product-navigator h4 {
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
 
   .product-navigator select {
@@ -661,7 +661,7 @@ body>header .project-name h3 {
   }
 
   .products-table th {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     padding: 12px 10px;
   }
 
