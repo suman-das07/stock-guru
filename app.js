@@ -63,15 +63,6 @@ function validateForm(productName, productCategory, productPrice, productQuantit
   }
 
 }
-
-
-
-
-
-
-
-
-
 function updateDashboardCards() {
   let productsArray = JSON.parse(localStorage.getItem(`myProducts`)) || [];
 
