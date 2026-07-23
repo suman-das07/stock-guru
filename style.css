@@ -8,6 +8,15 @@
   box-sizing: border-box;
 }
 
+.geist-pixel {
+  font-family: "Geist Pixel", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "ELSH" 0;
+}
+
 body {
   min-height: 100vh;
   background-color: rgb(233, 233, 233);
@@ -101,9 +110,6 @@ body>header .project-name h3 {
 .dashboardCard h4 {
   font-size: 3.5vw;
   color: white;
-  font-family: "Yuyu Short", sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
 
 .dashboardCard .dash_cards {
@@ -111,7 +117,7 @@ body>header .project-name h3 {
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  gap: 7rem;
+  gap: 5rem;
 }
 
 .dashboardCard .card1,
@@ -152,10 +158,9 @@ body>header .project-name h3 {
 }
 
 .dashboardCard h3 {
-  font-size: 2.6rem;
-  font-family: "Yuyu Short", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+
 }
 
 .dashboardCard h2 {
@@ -218,12 +223,10 @@ body>header .project-name h3 {
   border: 0.5px solid rgba(76, 252, 70, 0.459);
   backdrop-filter: blur(2px);
   color: #54ff8d;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
   cursor: pointer;
   transition: all linear 0.2s;
-  font-family: "Yuyu Short", sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
 
 .product-navigator button:hover {
@@ -250,10 +253,8 @@ body>header .project-name h3 {
 }
 
 .product-navigator h4 {
-  font-size: 2.2rem;
-  font-family: "Yuyu Short", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
 }
 
 .product-navigator select {
@@ -312,10 +313,8 @@ body>header .project-name h3 {
   padding: 18px;
   text-align: left;
 
-  font-family: "Yuyu Short", sans-serif;
-  font-size: 2rem;
-  font-weight: 400;
-
+  font-size: 1.1rem;
+  letter-spacing: 2px;
   color: white;
 
   border-bottom: 1px solid rgba(255, 255, 255, .2);
