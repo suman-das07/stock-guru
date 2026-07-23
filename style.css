@@ -535,6 +535,17 @@ body>header .project-name h3 {
   color: white;
 }
 
+footer{
+  width: 100%;
+  margin-bottom: 2.5vh;
+  text-align: center;
+}
+footer>h4{
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+}
+
+
 @media (max-width: 600px) {
 
   /* Header adjustments */
@@ -718,4 +729,16 @@ body>header .project-name h3 {
     padding: 0.8rem;
     font-size: 1.3rem;
   }
+
+    footer {
+      width: 100%;
+      margin-bottom: 2.5vh;
+      text-align: center;
+    }
+
+    footer>h4 {
+      font-size: .8rem;
+      letter-spacing: 2px;
+      padding: 0 10vw;
+    }
 }
