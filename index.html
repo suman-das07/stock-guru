@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Pixel:ELSH@0..80&display=swap" rel="stylesheet">
     <link
       rel="shortcut icon"
       href="assets/stockGuruFavicon.png"
@@ -27,34 +28,34 @@
     </header>
     <section>
       <div class="dashboardCard">
-        <h4>Inventory Dashboard</h4>
+        <h4 class="geist-pixel">Inventory Dashboard</h4>
         <div class="dash_cards">
           <div class="card1">
-            <h3>Total Products</h3>
+            <h3 class="geist-pixel">Total Products</h3>
             <h2 id="total-product-value"></h2>
           </div>
           <div class="card2">
-            <h3>Low Products</h3>
+            <h3 class="geist-pixel">Low Products</h3>
             <h2 id="low-stock-value">3</h2>
           </div>
           <div class="card3">
-            <h3>Out Of Stock</h3>
+            <h3 class="geist-pixel">Out Of Stock</h3>
             <h2 id="out-of-stock-value">7</h2>
           </div>
           <div class="card4">
-            <h3>Total Value</h3>
+            <h3 class="geist-pixel">Total Value</h3>
             <h2 id="total-value">20k</h2>
           </div>
         </div>
       </div>
     </section>
     <div class="product-navigator">
-      <button onclick="window.location.href = 'form.html'">
+      <button onclick="window.location.href = 'form.html'" class="geist-pixel">
         Add Item <i class="ri-add-line"></i>
       </button>
       <div class="filter">
         <i class="ri-filter-2-line"></i>
-        <h4>Category</h4>
+        <h4 class="geist-pixel">Category</h4>
         <select name="categories" id="categories" onchange="filterCategory()">
           <option value="All">All</option>
           <option value="Accessories">Accessories</option>
@@ -66,7 +67,7 @@
       </div>
       <div class="sort">
         <i class="ri-sort-desc"></i>
-        <h4>Sort</h4>
+        <h4 class="geist-pixel">Sort</h4>
         <select name="categories" id="sort" onchange="sortProducts()">
           <option value="Name (A–Z)">Name (A–Z)</option>
           <option value="Name (Z–A)">Name (Z–A)</option>
@@ -85,15 +86,15 @@
     <section class="products-section">
       <div class="table-container">
         <table class="products-table">
-          <thead>
+        <thead>
             <tr>
-              <th>ID</th>
-              <th>Product</th>
-              <th>Category</th>
-              <th>Price</th>
-              <th>Quantity</th>
-              <th>Status</th>
-              <th>Actions</th>
+              <th class="geist-pixel">ID</th>
+              <th class="geist-pixel">Product</th>
+              <th class="geist-pixel">Category</th>
+              <th class="geist-pixel">Price</th>
+              <th class="geist-pixel">Quantity</th>
+              <th class="geist-pixel">Status</th>
+              <th class="geist-pixel">Actions</th>
             </tr>
           </thead>
 
